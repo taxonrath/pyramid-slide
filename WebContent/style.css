@@ -41,3 +41,8 @@ article {
 	height: 75px;
 	background-color: #D3D3D3;
 }
+
+#pyramid_field {
+	text-align: right;
+	font-weight: bold;
+}
