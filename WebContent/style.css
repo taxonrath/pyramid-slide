@@ -1,0 +1,43 @@
+@CHARSET "ISO-8859-1";
+
+:root {
+	--paper: #F4F4F4;
+	--charcoal: #373737;
+	--purp: #9932CC;
+}
+
+body {
+	width: 90%;
+	background-color: var(--paper);
+	color: var(--charcoal);
+	margin: 0 auto;
+}
+
+header {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 35px;
+	text-align: center;
+	background-color: var(--purp);
+	color: white;
+	font-family: sans-serif;
+	font-size: 3em;
+	
+	
+	border-radius: 5px;
+}
+
+article {
+	margin: 0 auto;
+	margin-top: 35px;
+	
+	border-color: var(--purp);
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+}
+
+#selectors {
+	height: 75px;
+	background-color: #D3D3D3;
+}
